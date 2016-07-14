@@ -2,8 +2,7 @@
 
 if [ "${TERM%%-*}" = "screen" ]; then
   if [ -n "$TMUX" ]; then
-    printf "\033Ptmux;\033\033]4;236;rgb:32/30/2f\007\033\\"
-    
+    #Solarized colors
     printf "\033Ptmux;\033\033]4;234;rgb:07/36/42\007\033\\"
     printf "\033Ptmux;\033\033]4;235;rgb:00/2b/36\007\033\\"
     printf "\033Ptmux;\033\033]4;239;rgb:58/6e/75\007\033\\"
@@ -21,17 +20,24 @@ if [ "${TERM%%-*}" = "screen" ]; then
     printf "\033Ptmux;\033\033]4;37;rgb:2a/a1/98\007\033\\"
     printf "\033Ptmux;\033\033]4;64;rgb:85/99/00\007\033\\"
     
+    #Candy colors prompt - similar to Molokai theme
+    printf "\033Ptmux;\033\033]4;40;rgb:e5/22/22\007\033\\"
+    printf "\033Ptmux;\033\033]4;41;rgb:a6/e3/2d\007\033\\"
+    printf "\033Ptmux;\033\033]4;42;rgb:fc/95/1e\007\033\\"
+    printf "\033Ptmux;\033\033]4;43;rgb:c4/8d/ff\007\033\\"
+    printf "\033Ptmux;\033\033]4;44;rgb:fa/25/73\007\033\\"
+    printf "\033Ptmux;\033\033]4;45;rgb:67/d9/f0\007\033\\"
+    printf "\033Ptmux;\033\033]4;46;rgb:f2/f2/f2\007\033\\"
+    
+    #Other colors
     printf "\033Ptmux;\033\033]4;237;rgb:3c/38/36\007\033\\"
     printf "\033Ptmux;\033\033]4;243;rgb:7c/6f/64\007\033\\"
-
     printf "\033Ptmux;\033\033]4;228;rgb:f2/e5/bc\007\033\\"
-
     printf "\033Ptmux;\033\033]4;229;rgb:fb/f1/c7\007\033\\"
     printf "\033Ptmux;\033\033]4;223;rgb:eb/db/b2\007\033\\"
     printf "\033Ptmux;\033\033]4;250;rgb:d5/c4/a1\007\033\\"
     printf "\033Ptmux;\033\033]4;248;rgb:bd/ae/93\007\033\\"
     printf "\033Ptmux;\033\033]4;246;rgb:a8/99/84\007\033\\"
-
     printf "\033Ptmux;\033\033]4;167;rgb:fb/49/34\007\033\\"
     printf "\033Ptmux;\033\033]4;142;rgb:b8/bb/26\007\033\\"
     printf "\033Ptmux;\033\033]4;214;rgb:fa/bd/2f\007\033\\"
@@ -39,7 +45,6 @@ if [ "${TERM%%-*}" = "screen" ]; then
     printf "\033Ptmux;\033\033]4;175;rgb:d3/86/9b\007\033\\"
     printf "\033Ptmux;\033\033]4;108;rgb:8e/c0/7c\007\033\\"
     printf "\033Ptmux;\033\033]4;208;rgb:fe/80/19\007\033\\"
-
     printf "\033Ptmux;\033\033]4;88;rgb:9d/00/06\007\033\\"
     printf "\033Ptmux;\033\033]4;100;rgb:79/74/0e\007\033\\"
     printf "\033Ptmux;\033\033]4;24;rgb:07/66/78\007\033\\"
@@ -47,8 +52,7 @@ if [ "${TERM%%-*}" = "screen" ]; then
     printf "\033Ptmux;\033\033]4;66;rgb:42/7b/58\007\033\\"
     printf "\033Ptmux;\033\033]4;130;rgb:af/3a/03\007\033\\"
   else
-    printf "\033P\033]4;236;rgb:32/30/2f\007\033\\"
-    
+    #Solarized colors
     printf "\033P\033]4;234;rgb:07/36/42\007\033\\"
     printf "\033P\033]4;235;rgb:00/2b/36\007\033\\"
     printf "\033P\033]4;239;rgb:58/6e/75\007\033\\"
@@ -66,17 +70,24 @@ if [ "${TERM%%-*}" = "screen" ]; then
     printf "\033P\033]4;37;rgb:2a/a1/98\007\033\\"
     printf "\033P\033]4;64;rgb:85/99/00\007\033\\"
 
+    #Candy colors prompt - similar to Molokai theme
+    printf "\033P\033]4;40;rgb:e5/22/22\007\033\\"
+    printf "\033P\033]4;41;rgb:a6/e3/2d\007\033\\"
+    printf "\033P\033]4;42;rgb:fc/95/1e\007\033\\"
+    printf "\033P\033]4;43;rgb:c4/8d/ff\007\033\\"
+    printf "\033P\033]4;44;rgb:fa/25/73\007\033\\"
+    printf "\033P\033]4;45;rgb:67/d9/f0\007\033\\"
+    printf "\033P\033]4;46;rgb:f2/f2/f2\007\033\\"
+
+    #Other colors
     printf "\033P\033]4;237;rgb:3c/38/36\007\033\\"
     printf "\033P\033]4;243;rgb:7c/6f/64\007\033\\"
-
     printf "\033P\033]4;228;rgb:f2/e5/bc\007\033\\"
-
     printf "\033P\033]4;229;rgb:fb/f1/c7\007\033\\"
     printf "\033P\033]4;223;rgb:eb/db/b2\007\033\\"
     printf "\033P\033]4;250;rgb:d5/c4/a1\007\033\\"
     printf "\033P\033]4;248;rgb:bd/ae/93\007\033\\"
     printf "\033P\033]4;246;rgb:a8/99/84\007\033\\"
-
     printf "\033P\033]4;167;rgb:fb/49/34\007\033\\"
     printf "\033P\033]4;142;rgb:b8/bb/26\007\033\\"
     printf "\033P\033]4;214;rgb:fa/bd/2f\007\033\\"
@@ -84,7 +95,6 @@ if [ "${TERM%%-*}" = "screen" ]; then
     printf "\033P\033]4;175;rgb:d3/86/9b\007\033\\"
     printf "\033P\033]4;108;rgb:8e/c0/7c\007\033\\"
     printf "\033P\033]4;208;rgb:fe/80/19\007\033\\"
-
     printf "\033P\033]4;88;rgb:9d/00/06\007\033\\"
     printf "\033P\033]4;100;rgb:79/74/0e\007\033\\"
     printf "\033P\033]4;136;rgb:b5/76/14\007\033\\"
@@ -95,37 +105,42 @@ if [ "${TERM%%-*}" = "screen" ]; then
   fi
 
 elif [ "$TERM" != "linux" ] && [ "$TERM" != "vt100" ] && [ "$TERM" != "vt220" ]; then
+  #Solarized colors
+  printf "\033]4;234;rgb:07/36/42\033\\"
+  printf "\033]4;235;rgb:00/2b/36\033\\"
+  printf "\033]4;239;rgb:58/6e/75\033\\"
+  printf "\033]4;240;rgb:65/7b/83\033\\"
+  printf "\033]4;244;rgb:83/94/96\033\\"
+  printf "\033]4;245;rgb:93/a1/a1\033\\"
+  printf "\033]4;187;rgb:ee/e8/d5\033\\"
+  printf "\033]4;230;rgb:fd/f6/e3\033\\"
+  printf "\033]4;136;rgb:b5/89/00\033\\"
+  printf "\033]4;166;rgb:cb/4b/16\033\\"
+  printf "\033]4;124;rgb:dc/32/2f\033\\"
+  printf "\033]4;125;rgb:d3/36/82\033\\"
+  printf "\033]4;61;rgb:6c/71/c4\033\\"
+  printf "\033]4;33;rgb:26/8b/d2\033\\"
+  printf "\033]4;37;rgb:2a/a1/98\033\\"
+  printf "\033]4;64;rgb:85/99/00\033\\"
 
-  printf "\033]4;236;rgb:32/30/2f\033\\"
- 
-  printf "\033]4;234;rgb:07/36/42\007\033\\"
-  printf "\033]4;235;rgb:00/2b/36\007\033\\"
-  printf "\033]4;239;rgb:58/6e/75\007\033\\"
-  printf "\033]4;240;rgb:65/7b/83\007\033\\"
-  printf "\033]4;244;rgb:83/94/96\007\033\\"
-  printf "\033]4;245;rgb:93/a1/a1\007\033\\"
-  printf "\033]4;187;rgb:ee/e8/d5\007\033\\"
-  printf "\033]4;230;rgb:fd/f6/e3\007\033\\"
-  printf "\033]4;136;rgb:b5/89/00\007\033\\"
-  printf "\033]4;166;rgb:cb/4b/16\007\033\\"
-  printf "\033]4;124;rgb:dc/32/2f\007\033\\"
-  printf "\033]4;125;rgb:d3/36/82\007\033\\"
-  printf "\033]4;61;rgb:6c/71/c4\007\033\\"
-  printf "\033]4;33;rgb:26/8b/d2\007\033\\"
-  printf "\033]4;37;rgb:2a/a1/98\007\033\\"
-  printf "\033]4;64;rgb:85/99/00\007\033\\"
+  #Candy colors prompt - similar to Molokai theme
+  printf "\033]4;40;rgb:e5/22/22\033\\"
+  printf "\033]4;41;rgb:a6/e3/2d\033\\"
+  printf "\033]4;42;rgb:fc/95/1e\033\\"
+  printf "\033]4;43;rgb:c4/8d/ff\033\\"
+  printf "\033]4;44;rgb:fa/25/73\033\\"
+  printf "\033]4;45;rgb:67/d9/f0\033\\"
+  printf "\033]4;46;rgb:f2/f2/f2\033\\"
 
+  #Other colors
   printf "\033]4;237;rgb:3c/38/36\033\\"
   printf "\033]4;243;rgb:7c/6f/64\033\\"
-
   printf "\033]4;228;rgb:f2/e5/bc\033\\"
-
   printf "\033]4;229;rgb:fb/f1/c7\033\\"
   printf "\033]4;223;rgb:eb/db/b2\033\\"
   printf "\033]4;250;rgb:d5/c4/a1\033\\"
   printf "\033]4;248;rgb:bd/ae/93\033\\"
   printf "\033]4;246;rgb:a8/99/84\033\\"
-
   printf "\033]4;167;rgb:fb/49/34\033\\"
   printf "\033]4;142;rgb:b8/bb/26\033\\"
   printf "\033]4;214;rgb:fa/bd/2f\033\\"
@@ -133,7 +148,6 @@ elif [ "$TERM" != "linux" ] && [ "$TERM" != "vt100" ] && [ "$TERM" != "vt220" ];
   printf "\033]4;175;rgb:d3/86/9b\033\\"
   printf "\033]4;108;rgb:8e/c0/7c\033\\"
   printf "\033]4;208;rgb:fe/80/19\033\\"
-
   printf "\033]4;88;rgb:9d/00/06\033\\"
   printf "\033]4;100;rgb:79/74/0e\033\\"
   printf "\033]4;136;rgb:b5/76/14\033\\"
