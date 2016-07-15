@@ -20,7 +20,7 @@ if [ "${TERM%%-*}" = "screen" ]; then
     printf "\033Ptmux;\033\033]4;37;rgb:2a/a1/98\007\033\\"
     printf "\033Ptmux;\033\033]4;64;rgb:85/99/00\007\033\\"
     
-    #Candy colors prompt - similar to Molokai theme
+    #Candy colors prompt - similar to Monokai theme
     printf "\033Ptmux;\033\033]4;40;rgb:e5/22/22\007\033\\"
     printf "\033Ptmux;\033\033]4;41;rgb:a6/e3/2d\007\033\\"
     printf "\033Ptmux;\033\033]4;42;rgb:fc/95/1e\007\033\\"
@@ -29,7 +29,7 @@ if [ "${TERM%%-*}" = "screen" ]; then
     printf "\033Ptmux;\033\033]4;45;rgb:67/d9/f0\007\033\\"
     printf "\033Ptmux;\033\033]4;46;rgb:f2/f2/f2\007\033\\"
     
-    #Other colors
+    #Other colors - based on gruvbox (unimportant)
     printf "\033Ptmux;\033\033]4;237;rgb:3c/38/36\007\033\\"
     printf "\033Ptmux;\033\033]4;243;rgb:7c/6f/64\007\033\\"
     printf "\033Ptmux;\033\033]4;228;rgb:f2/e5/bc\007\033\\"
@@ -70,7 +70,7 @@ if [ "${TERM%%-*}" = "screen" ]; then
     printf "\033P\033]4;37;rgb:2a/a1/98\007\033\\"
     printf "\033P\033]4;64;rgb:85/99/00\007\033\\"
 
-    #Candy colors prompt - similar to Molokai theme
+    #Candy colors prompt - similar to Monokai theme
     printf "\033P\033]4;40;rgb:e5/22/22\007\033\\"
     printf "\033P\033]4;41;rgb:a6/e3/2d\007\033\\"
     printf "\033P\033]4;42;rgb:fc/95/1e\007\033\\"
@@ -79,7 +79,7 @@ if [ "${TERM%%-*}" = "screen" ]; then
     printf "\033P\033]4;45;rgb:67/d9/f0\007\033\\"
     printf "\033P\033]4;46;rgb:f2/f2/f2\007\033\\"
 
-    #Other colors
+    #Other colors - based on gruvbox (unimportant)
     printf "\033P\033]4;237;rgb:3c/38/36\007\033\\"
     printf "\033P\033]4;243;rgb:7c/6f/64\007\033\\"
     printf "\033P\033]4;228;rgb:f2/e5/bc\007\033\\"
@@ -123,7 +123,7 @@ elif [ "$TERM" != "linux" ] && [ "$TERM" != "vt100" ] && [ "$TERM" != "vt220" ];
   printf "\033]4;37;rgb:2a/a1/98\033\\"
   printf "\033]4;64;rgb:85/99/00\033\\"
 
-  #Candy colors prompt - similar to Molokai theme
+  #Candy colors prompt - similar to Monokai theme
   printf "\033]4;40;rgb:e5/22/22\033\\"
   printf "\033]4;41;rgb:a6/e3/2d\033\\"
   printf "\033]4;42;rgb:fc/95/1e\033\\"
@@ -132,7 +132,7 @@ elif [ "$TERM" != "linux" ] && [ "$TERM" != "vt100" ] && [ "$TERM" != "vt220" ];
   printf "\033]4;45;rgb:67/d9/f0\033\\"
   printf "\033]4;46;rgb:f2/f2/f2\033\\"
 
-  #Other colors
+  #Other colors - based on gruvbox (unimportant)
   printf "\033]4;237;rgb:3c/38/36\033\\"
   printf "\033]4;243;rgb:7c/6f/64\033\\"
   printf "\033]4;228;rgb:f2/e5/bc\033\\"
